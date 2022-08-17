@@ -1,0 +1,34 @@
+.heightDVH {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100vh;
+  background: #8d8d8d;
+}
+
+.heightDVH1 {
+  width: 20%;
+  height: 100vh;
+  height: 100dvh;
+  background: rgb(218, 136, 13);
+}
+
+.heightDVH2 {
+  width: 20%;
+  height: 100vh;
+  background: rgb(180, 194, 87);
+}
+
+.heightDVH3 {
+  width: 20%;
+  height: 100vh;
+  height: 100svh;
+  background:rgb(125, 225, 114);
+}
+
+.heightDVH4 {
+  width: 20%;
+  height: 100vh;
+  height: 100lvh;
+  background:rgb(121, 202, 167);
+}
