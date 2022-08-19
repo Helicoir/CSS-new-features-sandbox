@@ -3,7 +3,7 @@
   flex-wrap: nowrap;
   width: 100%;
   height: 100vh;
-  padding: 50px 0;
+  padding: 0 0 50px;
   background: #8d8d8d;
 }
 
@@ -34,19 +34,27 @@
   background: rgb(121, 202, 167);
 }
 
-.heightDVHmodals {
+.heightDVHmodals > button {
+  display: block;
 }
 
 .modal {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   background: #cccccc;
   color: #333;
+  opacity: 0.8;
 }
 
 .dvh100 {
   height: 100dvh;
+}
+.svh100 {
+  height: 100svh;
+}
+.lvh100 {
+  height: 100lvh;
 }
