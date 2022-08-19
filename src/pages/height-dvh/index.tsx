@@ -26,7 +26,7 @@ const HeightDVHPage = () => {
           onClick={() => setSvhModalIsOpen(false)}
           className={`${styles.modal} ${styles.svh100}`}
         >
-          height: 100svh（メニューなどのUI現在状態の「高さ」）
+          height: 100svh（メニューなどのUI表示時の「高さ」）
         </div>
       )}
       {lvhModalIsOpen && (
@@ -34,7 +34,7 @@ const HeightDVHPage = () => {
           onClick={() => setLvhModalIsOpen(false)}
           className={`${styles.modal} ${styles.lvh100}`}
         >
-          height: 100dvh（メニューなどのUI現在状態の「高さ」）
+          height: 100dvh（メニューなどのUI非表示時の「高さ」）
         </div>
       )}
       <div className={styles.heightDVH}>
